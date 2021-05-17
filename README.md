@@ -29,6 +29,8 @@ Your task is to take this basic CRUD application and ensure that it is tested pr
 
 In your terminal run npx cypress open to start Cypress and to be able to run the tests
 
+
+
 You can ask any question beforehand and during about requirements, expectations, unclear goals or anything else that isn't clear; as with any project: [Ask Us](mailto:ash@cubesoftware.com&cc=alejandro@cubesoftware.com&cc=jason@cubesoftware.com&subject=Question%20about%20code%20challenge).
 Someone should get back to you soon, any time, any day.
 
