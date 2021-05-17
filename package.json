@@ -1,7 +1,7 @@
 {
   "name": "cypress-assessment",
   "version": "1.0.0",
-  "description": "",
+  "description": "## Getting Started",
   "scripts": {
     "build": "rimraf build && npm run lint && npm run format && tsc && rimraf dist && webpack",
     "develop": "NODE_ENV=development node build/index.js",
@@ -32,6 +32,8 @@
     "@types/webpack-dev-middleware": "^4.1.0",
     "@typescript-eslint/eslint-plugin": "^4.17.0",
     "@typescript-eslint/parser": "^4.17.0",
+    "cypress": "^7.3.0",
+    "cypress-xpath": "^1.6.2",
     "eslint": "^7.21.0",
     "eslint-plugin-react": "^7.22.0",
     "html-webpack-plugin": "^5.3.1",
@@ -40,5 +42,16 @@
     "typescript": "^4.2.3",
     "webpack": "^5.24.4",
     "webpack-cli": "^4.5.0"
-  }
+  },
+  "main": ".eslintrc.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cube-planning/technical-assignment-qa.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cube-planning/technical-assignment-qa/issues"
+  },
+  "homepage": "https://github.com/cube-planning/technical-assignment-qa#readme"
 }
